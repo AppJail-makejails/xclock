@@ -1,6 +1,6 @@
 # xclock
 
-wiki.wikipedia.org/wiki/X.Org_Foundation#xutils
+wikipedia.org/wiki/X.Org_Foundation#xutils
 
 ![xclock logo](https://imgur.com/S9mphOL.png)
 

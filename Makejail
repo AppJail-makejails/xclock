@@ -1,0 +1,18 @@
+INCLUDE options/options.makejail
+
+PKG xclock
+
+STOP
+
+STAGE create
+
+CMD --local xhost +
+
+STAGE cmd
+
+ARG display=:0
+
+ENV DISPLAY=${display}
+
+USER nobody
+RUN xclock

@@ -4,7 +4,7 @@ Analog and digital clock for X.
 
 wikipedia.org/wiki/X.Org_Foundation#xutils
 
-![xclock logo](https://imgur.com/S9mphOL.png)
+![xclock logo](https://i.ibb.co/ggXHgXg/xclock.png)
 
 ## How to use this Makejail
 

@@ -12,7 +12,7 @@ STAGE create
 
 CMD --local xhost +
 
-STAGE cmd
+STAGE custom:xclock_open
 
 ARG display=:0
 

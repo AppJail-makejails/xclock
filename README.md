@@ -46,10 +46,15 @@ clear_tmp_X="NO"
 
 The `rc.conf(5)` file above sets `clear_tmp_X` to `NO` to not remove the sockets and various related files before the jail starts.
 
-Open a shell and run `appjail makejail`, `appjail start` and `appjail run`:
+Open a shell and run `appjail makejail` and `appjail start`:
 
 ```sh
 appjail makejail -j xclock -- --network development
 appjail start xclock
-appjail run xclock
+```
+
+After Makejail builds the jail, you can run xclock using the `xclock_open` custom stage:
+
+```sh
+appjail run -s xclock_open xclock
 ```

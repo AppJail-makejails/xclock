@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG xclock_tag=latest
+ARG xclock_tag=13.2
 
 FROM --entrypoint gh+AppJail-makejails/xclock xclock:${xclock_tag}
 

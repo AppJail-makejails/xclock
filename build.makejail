@@ -1,0 +1,7 @@
+INCLUDE options/options.makejail
+
+CMD pw useradd -n xclock -c "Analog and digital clock for X" -d /home/xclock -s /bin/sh
+CMD mkdir -p /home/xclock
+CMD chown xclock:xclock /home/xclock
+
+PKG xclock

@@ -1,0 +1,17 @@
+tags: 13.1
+13.1.arch: amd64
+13.1.name: "xclock"
+13.1.timestamp.amd64: 1689626985
+13.1.sum.amd64: deb859dfb1d675e50fca627bb2676b973f9a2e97dae4f562b73f2919361f72da
+13.1.size.amd64: 24961664
+13.1.source.amd64: https://dtxdf.duckdns.org/q9h8J724z9/xclock_13_1_amd64_image_appjail
+13.1.source.amd64+: https://anonget.onrender.com/q9h8J724z9/xclock_13_1_amd64_image_appjail
+
+tags+: 13.2
+13.2.arch: amd64
+13.2.name: "xclock"
+13.2.timestamp.amd64: 1689627196
+13.2.sum.amd64: 491ad16affc72052888e929e125897e83d4df42d5bff0bfb143194cecd327e97
+13.2.size.amd64: 24767356
+13.2.source.amd64: https://dtxdf.duckdns.org/nbhbJ427z1/xclock_13_2_amd64_image_appjail
+13.2.source.amd64+: https://anonget.onrender.com/nbhbJ427z1/xclock_13_2_amd64_image_appjail

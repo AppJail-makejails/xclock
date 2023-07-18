@@ -89,7 +89,7 @@ appjail image export xclock
 
 ## Tags
 
-| Tag     | Arch    | Version        |
-| ------- | ------- | -------------- |
-| `13.2`  | `amd64` | `13.2-RELEASE` |
-| `13.1`  | `amd64` | `13.1-RELEASE` |
+| Tag     | Arch    | Version        | Type   |
+| ------- | ------- | -------------- | ------ |
+| `13.2`  | `amd64` | `13.2-RELEASE` | `thin` |
+| `13.1`  | `amd64` | `13.1-RELEASE` | `thin` |

@@ -1,7 +1,8 @@
-tags: 13.2
+tags+: 13.2
 13.2.arch: amd64
 13.2.name: "xclock"
-13.2.timestamp.amd64: 1695824316
-13.2.sum.amd64: 7c656e3922a32208025e02e3cd1f4a351b2ebf09e359364e4607a6de5f138cdb
-13.2.size.amd64: 24352592
-13.2.source.amd64: "http://appjail.hpc.at/xclock/13.2-amd64-image.appjail"
+13.2.timestamp.amd64: 1697290057
+13.2.sum.amd64: fce4f2cc3bc794307e0c1f66112ad8343bee75046534df2bd8743e8c5808df2c
+13.2.size.amd64: 24815584
+13.2.source.amd64: https://images.all101bsd.download/xclock/13.2-amd64-image.appjail
+13.2.source.amd64+: http://appjail.hpc.at/xclock/13.2-amd64-image.appjail

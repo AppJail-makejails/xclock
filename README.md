@@ -61,32 +61,6 @@ appjail start xclock
 appjail run -s xclock_open xclock
 ```
 
-## How to build the Image
-
-Make any changes you want to your image.
-
-```
-INCLUDE options/network.makejail
-INCLUDE gh+AppJail-makejails/xclock --file build.makejail
-```
-
-Build the jail:
-
-```sh
-appjail makejail -j xclock
-```
-
-Remove unportable or unnecessary files and directories and export the jail:
-
-```sh
-appjail stop xclock
-appjail cmd local xclock sh -c "rm -f var/log/*"
-appjail cmd local xclock sh -c "rm -f var/cache/pkg/*"
-appjail cmd local xclock sh -c "rm -f var/run/*"
-appjail cmd local xclock vi etc/rc.conf
-appjail image export xclock
-```
-
 ## Tags
 
 | Tag    | Arch    | Version        | Type   |

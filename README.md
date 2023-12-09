@@ -58,6 +58,7 @@ After Makejail builds the jail, you can run xclock using the `xclock_open` custo
 
 ```sh
 appjail start xclock
+xhost +
 appjail run -s xclock_open xclock
 ```
 

@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG xclock_tag=13.4
+ARG xclock_tag=%%TAG1%%
 ARG xclock_ajspec=gh+AppJail-makejails/xclock
 
 FROM --entrypoint "${xclock_ajspec}" xclock:${xclock_tag}

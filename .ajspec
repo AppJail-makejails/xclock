@@ -1,16 +1,17 @@
 tags+: 13.5
 13.5.arch: amd64
 13.5.name: "xclock"
-13.5.timestamp.amd64: 1758769656
-13.5.sum.amd64: d8a9e26f051e03eb8335b1b38ddfc99c988a484c7bcb6955b6bd1f9f98910247
-13.5.size.amd64: 41242825
+13.5.timestamp.amd64: 1760579957
+13.5.sum.amd64: 943820f53244b9afc6d1c452ac8c551fc12d0a78096ccda1c670fb7ab0a4f18a
+13.5.size.amd64: 41087104
 13.5.source.amd64: "https://images.all101bsd.download/xclock/13.5-amd64-image.appjail"
 13.5.source.amd64+: "http://appjail.hpc.at/xclock/13.5-amd64-image.appjail"
 tags+: 14.3
 14.3.arch: amd64
 14.3.name: "xclock"
-14.3.timestamp.amd64: 1758769765
-14.3.sum.amd64: c150cfa0e7ff13f8faf2fac66b5ddabdd75f0458fcc2ba7e84f4113d600dca50
-14.3.size.amd64: 40870055
+14.3.timestamp.amd64: 1760580077
+14.3.sum.amd64: afc9ac55cc04dc5bdcb746cc88c03fd1054b37f5fb9e0b366906a6e86bf461a6
+14.3.size.amd64: 40950096
 14.3.source.amd64: "https://images.all101bsd.download/xclock/14.3-amd64-image.appjail"
 14.3.source.amd64+: "http://appjail.hpc.at/xclock/14.3-amd64-image.appjail"
+maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."
